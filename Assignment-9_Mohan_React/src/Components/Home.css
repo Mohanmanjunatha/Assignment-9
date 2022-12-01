@@ -1,0 +1,162 @@
+.homeBodyWrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#businessImage {
+    width: 600px;
+    height: 450px;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Card Css */
+
+.cardWrapper {
+    display: flex;
+    border: 1px solid black;
+    width: 350px;
+    height: 300px;
+    margin-top: 100px;
+
+}
+
+.cardContent {
+    border: 1px solid black;
+    margin: 30px;
+    padding: 10px;
+}
+
+.cardHeadingWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBtnWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Css */
+
+
+/* Our Services CSS */
+
+.ourServicesWrapper {
+    margin-top: 50px;
+}
+
+.servicesTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesCardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#servicesTechImage {
+    width: 600px;
+    height: 400px;
+}
+
+#servicesAnalyticsImage {
+    width: 600px;
+    height: 400px;
+}
+
+
+
+
+/* Our Services CSS */
+
+/* Footer CSS */
+
+.footerWrapper {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Footer CSS */
+
+
+
+/* Media Query for screens 768px to 1024px ie. ipad mini */
+@media (min-width:768px) and (max-width: 1024px) {
+    .contentWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #businessImage {
+        width: 500px;
+        height: 400px;
+    }
+
+    .servicesCardWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .servciesCard1 {
+        margin-bottom: 50px;
+    }
+
+    #servicesTechImage {
+        width: 710px;
+        height: 400px;
+    }
+}
+
+/* Media Query for screens 768px to 1024px ie. ipad mini */
+
+/* Media Query for screens 200px to 844px ie. iphone 12 pro */
+
+
+@media (min-width: 290px) and (max-width:844px) {
+    .contentWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #businessImage {
+        width: 350px;
+        height: 300px;
+    }
+
+    .servicesCardWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .servciesCard1 {
+        margin-bottom: 50px;
+    }
+
+    #servicesTechImage {
+        width: 310px;
+        height: 280px;
+    }
+
+    #servicesAnalyticsImage {
+        width: 310px;
+        height: 280px;
+    }
+}
+
+/* Media Query for screens 200px to 844px ie. iphone 12 pro */

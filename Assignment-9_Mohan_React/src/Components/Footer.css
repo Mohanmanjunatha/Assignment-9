@@ -1,0 +1,59 @@
+.footerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLinks {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.linkedIn a {
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+
+.phone a {
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+
+/* Media Query for screens 200px to 844px ie. iphone 12 pro */
+
+
+@media (min-width: 290px) and (max-width:844px) {
+    .footerTitle h2 {
+        font-size: 15px;
+    }
+
+    .linkedIn a {
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+    }
+    
+    .facebook a {
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+    }
+    
+    .phone a {
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+    }
+    
+}
+
+/* Media Query for screens 200px to 844px ie. iphone 12 pro */

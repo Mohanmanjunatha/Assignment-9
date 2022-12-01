@@ -1,0 +1,64 @@
+.aboutBodyWrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#aboutImage {
+    width: 600px;
+    height: 400px;
+}
+
+.aboutContentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.aboutCardWrapper {
+    border: 1px solid black;
+
+}
+
+.cardHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBody {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.contactUsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.contactUsBtn button {
+    font-size: 30px;
+}
+
+.aboutFooterWrapper {
+    bottom: 0;
+}
+
+/* Media CSS */
+
+
+@media (min-width:290px) and (max-width:1100px) {
+    .aboutContentWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Media CSS */
